@@ -1,0 +1,26 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Code challenge for 99 Tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/problem5/server.ts",
+    "start:problem4": "ts-node-dev src/problem5/test.ts",
+    "start:problem5": "ts-node-dev src/problem5/server.ts",
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.ts'",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
