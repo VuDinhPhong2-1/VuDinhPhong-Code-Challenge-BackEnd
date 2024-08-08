@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/problem5/server.ts",
-    "start:problem4": "ts-node-dev src/problem5/test.ts",
+    "start:problem4": "ts-node-dev src/problem4/test.ts",
     "start:problem5": "ts-node-dev src/problem5/server.ts",
     "build": "tsc",
     "lint": "eslint 'src/**/*.ts'",
     "test": "jest"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.5.2"
   },
